@@ -38,7 +38,7 @@ Position| Level | Salary  |
 ## To note
 The app assumes the last column is the target (Salary), and features are in between the first and last columns.
 
----
+
 
 
 
@@ -47,4 +47,5 @@ The app assumes the last column is the target (Salary), and features are in betw
 ''terminal:
 
 git clone https://github.com/SajanBista/Predicting_Salary.git
+
 cd Predicting_Salary
