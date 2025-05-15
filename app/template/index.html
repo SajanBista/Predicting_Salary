@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My FastAPI UI</title>
+</head>
+<body>
+    <h1>Welcome to My FastAPI App</h1>
+
+    <h2>Upload CSV File</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <button type="submit">Upload</button>
+    </form>
+
+    <h2>Query API</h2>
+    <form action="/predict" method="get">
+        <label for="level">Enter Level:</label>
+        <input type="number" name="level" step="1" min="1" required>
+        <button type="submit">Get Salary Prediction</button>
+    </form>
+
+    <p><a href="/docs">Swagger Docs</a></p>
+</body>
+</html>
