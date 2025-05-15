@@ -1,4 +1,4 @@
-# Predicting Salary Using Polynomial Regression for my first assignment of fuse machine ai fellowship
+# Predicting Salary Using Polynomial Regression for my first assignment of fuse machine ai fellowship where I am trying to implement 12 factor app
 
 This project is a machine learning web application built with FastAPI which predicts salary based on their level or position using Polynomial Regression.
 
